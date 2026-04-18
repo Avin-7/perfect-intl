@@ -166,7 +166,7 @@ export default function ProductsListSection() {
         </div>
 
         <div className="space-y-16">
-          {groups.map((group, gi) => (
+          {groups.map((group) => (
             <motion.div
               key={group.title}
               initial={{ opacity: 0, y: 20 }}
