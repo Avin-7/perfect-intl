@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import OfficeTimingSection_dubai from "./OfficeTimingSection-dubai";
 
 export default function ContactSection_Dubai() {
