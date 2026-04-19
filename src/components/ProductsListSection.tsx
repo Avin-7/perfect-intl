@@ -24,7 +24,7 @@ import engine2 from "@/assets/engine-2.jpg";
 import engine3 from "@/assets/engine-3.jpg";
 import engine4 from "@/assets/engine-4.jpg";
 import chalwyn1 from "@/assets/chalwyn-1.jpg";
-import chalwyn2 from "@/assets/chalwyn-2.jpg";
+import chalwyn2 from "@/assets/chalwyn-2.png";
 import starter1 from "@/assets/starter-1.jpg";
 import starter2 from "@/assets/starter-2.jpg";
 import starter3 from "@/assets/starter-3.jpg";
@@ -44,8 +44,8 @@ const groups: Group[] = [
     description:
       "Diesel power engines, portable generators, recoil starter assemblies and complete engine internal components.",
     images: [
-      { src: engine1, alt: "Diesel power engine with radiator assembly" },
-      { src: engine2, alt: "Honda portable petrol generator" },
+      { src: engine1, alt: "Diesel power engine" },
+      { src: engine2, alt: "Portable petrol generator" },
       { src: engine3, alt: "Recoil starter assembly with detail views" },
       {
         src: engine4,
@@ -62,7 +62,7 @@ const groups: Group[] = [
         src: chalwyn1,
         alt: "Chalwyn ATEX air intake shutoff valves with engine installation",
       },
-      { src: chalwyn2, alt: "Stainless steel spark arrestors in three sizes" },
+      { src: chalwyn2, alt: "Spark arrestors" },
     ],
   },
   {
@@ -95,7 +95,7 @@ const groups: Group[] = [
       "Premium chrome exhaust stacks, elbow pipes, and flexible braided bellows for heavy-duty applications.",
     images: [
       { src: exhaust1, alt: "Chrome exhaust stacks and elbow pipes" },
-      { src: exhaust2, alt: "Stainless steel braided flexible exhaust bellow" },
+      { src: exhaust2, alt: "Braided flexible exhaust bellow" },
     ],
   },
   {
@@ -107,7 +107,7 @@ const groups: Group[] = [
         src: chains1,
         alt: "Assorted transmission chains and connecting links",
       },
-      { src: chains2, alt: "Heavy-duty roller chain coil" },
+      { src: chains2, alt: "Heavy-duty roller chain" },
     ],
   },
   {
@@ -124,7 +124,7 @@ const groups: Group[] = [
     ],
   },
   {
-    title: "Mistuba Rear View Mirrors",
+    title: "Rear View Mirrors & Convex mirrors",
     description:
       "Heavy-duty rear view and convex safety mirrors for trucks, commercial vehicles and industrial applications.",
     images: [
@@ -140,7 +140,7 @@ const groups: Group[] = [
     images: [
       { src: spare1, alt: "RPM tachometer gauge" },
       { src: spare2, alt: "Oil pressure sender units" },
-      { src: spare3, alt: "Temperature sensors in 1/4, 3/8 and 1/2 NPT" },
+      { src: spare3, alt: "Temperature sensors" },
       { src: spare4, alt: "Engine cooling fan blades" },
       { src: spare5, alt: "Tail lights and reflectors" },
       { src: spare6, alt: "LED warning light bar and strobe lights" },

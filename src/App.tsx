@@ -9,6 +9,7 @@ import BrandsSection from "@/components/BrandsSection";
 import ContactSection_Dubai from "@/components/ContactSection-dubai";
 import ContactSection_Qatar from "@/components/ContactSection-qatar";
 import Footer from "@/components/Footer";
+import ProductsFor from "./components/ProductsFor";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Navbar />
       <main>
         <HeroSection />
+        <ProductsFor />
         <AboutSection />
         <ExpertiseSection />
         <ProductsListSection />
