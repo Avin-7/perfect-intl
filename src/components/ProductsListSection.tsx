@@ -7,7 +7,6 @@ import toggleImg from "@/assets/toggle.png";
 import ind1 from "@/assets/industrial-1.png";
 import ind2 from "@/assets/industrial-2.png";
 import horn1 from "@/assets/horn-1.png";
-import horn3 from "@/assets/horn-3.png";
 import auto1 from "@/assets/auto-1.jpg";
 import auto2 from "@/assets/auto-2.jpg";
 import exhaust1 from "@/assets/exhaust-1.jpg";
@@ -88,7 +87,6 @@ const groups: Group[] = [
       { src: horn1, alt: "Classic horn relay" },
       { src: auto1, alt: "12V mini automotive relay" },
       { src: auto2, alt: "12V 70A starter relay" },
-      { src: horn3, alt: "12V 70A starter relay" },
     ],
   },
   {
