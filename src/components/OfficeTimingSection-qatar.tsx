@@ -44,7 +44,7 @@ export default function OfficeTimingSection_qatar() {
             Hours
           </span>
           <h2 className="font-heading text-3xl md:text-4xl font-bold mt-2 text-foreground">
-            Our Qatar branch Office Timings
+            Our Doha, Qatar branch Office Timings
           </h2>
         </div>
 

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
-import aboutImg from "@/assets/about-us.png";
+import about_1 from "@/assets/about-us.png";
+import about_2 from "@/assets/about-us-2.jpg";
 
 const points = [
   "Over 15+ years of experience in the industry ",
@@ -15,15 +16,24 @@ export default function AboutSection() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
+            className=" flex flex-col gap-4"
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
             <img
-              src={aboutImg}
+              src={about_1}
               alt="Our auto parts warehouse"
-              className="rounded-xl shadow-lg w-full object-cover h-[350px] md:h-[420px]"
+              className="rounded-xl shadow-lg w-full object-contain sm:object-fill xl:object-cover h-[250px] md:h-[250px]"
+              loading="lazy"
+              width={800}
+              height={600}
+            />
+            <img
+              src={about_2}
+              alt="Our auto parts warehouse"
+              className="rounded-xl shadow-lg w-full object-cover h-[250px] md:h-[260px]"
               loading="lazy"
               width={800}
               height={600}

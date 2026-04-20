@@ -3,10 +3,11 @@ import spstImg from "@/assets/spst.jpg";
 import spdtImg from "@/assets/spdt.jpg";
 import dpstImg from "@/assets/dpst.jpg";
 import dpdtImg from "@/assets/dpdt.jpg";
-import toggleImg from "@/assets/toggle.jpg";
-import ind1 from "@/assets/industrial-1.jpg";
-import ind2 from "@/assets/industrial-2.jpg";
-import horn1 from "@/assets/horn-1.jpg";
+import toggleImg from "@/assets/toggle.png";
+import ind1 from "@/assets/industrial-1.png";
+import ind2 from "@/assets/industrial-2.png";
+import horn1 from "@/assets/horn-1.png";
+import horn3 from "@/assets/horn-3.png";
 import auto1 from "@/assets/auto-1.jpg";
 import auto2 from "@/assets/auto-2.jpg";
 import exhaust1 from "@/assets/exhaust-1.jpg";
@@ -20,13 +21,13 @@ import spare4 from "@/assets/spare-4.jpg";
 import spare5 from "@/assets/spare-5.jpg";
 import spare6 from "@/assets/spare-6.jpg";
 import engine1 from "@/assets/engine-1.jpg";
-import engine2 from "@/assets/engine-2.jpg";
+import engine2 from "@/assets/engine-2.png";
 import engine3 from "@/assets/engine-3.jpg";
 import engine4 from "@/assets/engine-4.jpg";
 import chalwyn1 from "@/assets/chalwyn-1.jpg";
 import chalwyn2 from "@/assets/chalwyn-2.png";
 import starter1 from "@/assets/starter-1.jpg";
-import starter2 from "@/assets/starter-2.jpg";
+import starter2 from "@/assets/starter-2.png";
 import starter3 from "@/assets/starter-3.jpg";
 import mirror1 from "@/assets/mirror-1.jpg";
 import mirror2 from "@/assets/mirror-2.jpg";
@@ -87,6 +88,7 @@ const groups: Group[] = [
       { src: horn1, alt: "Classic horn relay" },
       { src: auto1, alt: "12V mini automotive relay" },
       { src: auto2, alt: "12V 70A starter relay" },
+      { src: horn3, alt: "12V 70A starter relay" },
     ],
   },
   {
@@ -200,7 +202,7 @@ export default function ProductsListSection() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.35, delay: i * 0.06 }}
-                    className="relative overflow-hidden rounded-2xl gradient-silver border border-border group"
+                    className="relative overflow-hidden rounded-2xl bg-white border border-border group"
                   >
                     <img
                       src={img.src}

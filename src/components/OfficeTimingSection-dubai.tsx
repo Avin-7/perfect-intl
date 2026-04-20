@@ -44,7 +44,7 @@ export default function OfficeTimingSection_dubai() {
             Hours
           </span>
           <h2 className="font-heading text-3xl md:text-4xl font-bold mt-2 text-foreground">
-            Our Dubai branch Office Timings
+            Our Dubai Head Office Timings
           </h2>
         </div>
 

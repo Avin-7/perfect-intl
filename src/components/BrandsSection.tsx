@@ -135,7 +135,7 @@ export default function BrandsSection() {
               {Array.from({ length: totalPages }).map((_, pageIndex) => (
                 <div
                   key={pageIndex}
-                  className="min-w-full  grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 grid-rows-2 gap-6 justify-items-center"
+                  className="min-w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 grid-rows-2 gap-6 justify-items-center"
                 >
                   {brands
                     .slice(
@@ -145,7 +145,7 @@ export default function BrandsSection() {
                     .map((brand) => (
                       <div
                         key={brand.name}
-                        className="w-[150px] h-24 flex items-center justify-center border rounded-xl"
+                        className="w-[150px] h-24 flex items-center justify-center border rounded-xl bg-white "
                       >
                         <img
                           src={brand.logo}
