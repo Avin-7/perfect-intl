@@ -16,9 +16,9 @@ const App = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <main>
+        <AboutSection />
         <HeroSection />
         <ProductsFor />
-        <AboutSection />
         <ExpertiseSection />
         <ProductsListSection />
         <WhyChooseSection />

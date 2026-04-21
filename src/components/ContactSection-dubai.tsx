@@ -59,12 +59,10 @@ export default function ContactSection_Dubai() {
                   Address
                 </h4>
                 <p className="text-muted-foreground">
+                  P.O.Box 122646 <br />
                   Showroom No.3, Rashid Buset Building,
-                  <br /> Ras Al Khor Industrial Second
-                  <br />
-                  Dubai – UAE.
-                  <br />
-                  P.O.Box : 122646
+                  <br /> Ras Al Khor Industrial Second, Al Aweer
+                  <br /> Dubai – UAE.
                 </p>
               </div>
             </div>

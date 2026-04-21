@@ -31,6 +31,8 @@ import starter3 from "@/assets/starter-3.jpg";
 import mirror1 from "@/assets/mirror-1.jpg";
 import mirror2 from "@/assets/mirror-2.jpg";
 import mirror3 from "@/assets/mirror-3.jpg";
+import productsImg from "@/assets/products.jpeg";
+import product_list from "@/assets/product-list.jpeg";
 
 type Group = {
   title: string;
@@ -218,6 +220,35 @@ export default function ProductsListSection() {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        <div className=" mt-10">
+          <div className="">
+            <motion.div
+              className=" flex flex-col gap-4 justify-center items-center"
+              initial={{ opacity: 0, x: -40 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <img
+                src={productsImg}
+                alt="Our auto parts warehouse"
+                className="rounded-xl shadow-lg w-full md:w-3/4  object-contain  h-[250px] md:h-[550px]"
+                loading="lazy"
+                width={800}
+                height={600}
+              />
+              <img
+                src={product_list}
+                alt="Our auto parts warehouse"
+                className="rounded-xl shadow-lg w-full md:w-3/4 object-contain h-[250px] md:h-[550px]"
+                loading="lazy"
+                width={800}
+                height={900}
+              />
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>

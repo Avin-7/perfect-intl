@@ -11,7 +11,7 @@ export default function ContactSection_Qatar() {
             Contact Us
           </span>
           <h2 className="font-heading text-3xl md:text-4xl font-bold mt-2 text-foreground">
-            Visit our Doha, Qatar Branch
+            Visit our Doha Qatar Branch
           </h2>
           <p className="text-muted-foreground mt-3 max-w-2xl mx-auto">
             Get in touch with us.
@@ -61,14 +61,11 @@ export default function ContactSection_Qatar() {
                   Address
                 </h4>
                 <p className="text-muted-foreground">
-                  QDC Building, Shop # 1, Building # 63, Zone # 57, Street #
-                  105,
-                  <br />
-                  Industrial Area,
-                  <br />
-                  Wakalat Street, Qatar
-                  <br />
-                  P.O.Box : 90931
+                  P. Box 90931 <br />
+                  Showroom No 1, QDC Building, <br />
+                  Building # 63, Zone # 57, Street # 105, <br />
+                  Industrial Area, Wakalat Street, <br />
+                  Doha - Qatar
                 </p>
               </div>
             </div>

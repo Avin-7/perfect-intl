@@ -12,7 +12,7 @@ const points = [
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-card">
+    <section id="home" className="py-20 bg-card">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -46,9 +46,9 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <span className="text-accent font-semibold uppercase tracking-wider text-sm">
+            {/* <span className="text-accent font-semibold uppercase tracking-wider text-sm">
               About Us
-            </span>
+            </span> */}
             <h2 className="font-heading text-3xl md:text-4xl font-bold mt-2 mb-4 text-foreground">
               Driving Quality Since 2006
             </h2>

@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
+  // { label: "About Us", href: "#about" },
   { label: "Expertise", href: "#expertise" },
   { label: "Products", href: "#products-list" },
   { label: "Why Choose Us", href: "#why-us" },
@@ -33,8 +33,15 @@ export default function Navbar() {
       {/* Main nav */}
       <nav className="bg-card sticky top-0 z-50 shadow-md">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
-          <a href="#home" className="flex items-center gap-2 text-primary font-bold text-xl">
-            <img src={logo} className=" w-full h-26 p-4 object-cover overflow-hidden" alt="" />
+          <a
+            href="#home"
+            className="flex items-center gap-2 text-primary font-bold text-xl"
+          >
+            <img
+              src={logo}
+              className=" w-full h-26 p-4 object-cover overflow-hidden"
+              alt=""
+            />
           </a>
 
           {/* Desktop */}
