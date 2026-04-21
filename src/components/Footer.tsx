@@ -108,6 +108,8 @@ export default function Footer() {
                   <br /> Dubai – UAE.
                 </li>
                 <div className=" h-1 w-full bg-accent rounded-full" />
+                <li>+974 33433281</li>
+                <li>perfectshineint@gmail.com</li>
                 <li>
                   P. Box 90931 <br />
                   Showroom No 1, QDC Building, <br />
