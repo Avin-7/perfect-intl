@@ -100,6 +100,7 @@ export default function Footer() {
               <h4 className="font-heading font-bold mb-3">Contact</h4>
               <ul className="space-y-2 text-sm text-[var(--steel-light)]">
                 <li>009714-3332263</li>
+                <li>perfectshineinternational.com</li>
                 <li>perfint@hotmail.com</li>
                 <li>
                   P.O.Box 122646 <br />

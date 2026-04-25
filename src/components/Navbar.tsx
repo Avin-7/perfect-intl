@@ -25,7 +25,7 @@ export default function Navbar() {
             </span>
           </div>
           <span className="flex items-center gap-1.5">
-            <Mail size={14} /> perfint@hotmail.com
+            <Mail size={14} /> perfectshineinternational.com
           </span>
         </div>
       </div>
